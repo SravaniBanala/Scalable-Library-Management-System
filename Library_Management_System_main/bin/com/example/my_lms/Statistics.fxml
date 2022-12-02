@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="697.0" prefWidth="1045.0" styleClass="bodybg" stylesheets="@application.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.my_lms.StatisticsController">
+   <children>
+      <ImageView fitHeight="697.0" fitWidth="1045.0" opacity="0.85" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@nustlibrary.png" />
+         </image>
+      </ImageView>
+      <TableView fx:id="tIssueBook" layoutX="12.0" layoutY="99.0" prefHeight="200.0" prefWidth="690.0">
+        <columns>
+          <TableColumn fx:id="tcBookId" prefWidth="82.39999103546143" text="BOOK ID" />
+          <TableColumn fx:id="tcBookName" prefWidth="164.00001525878906" text="BOOK NAME" />
+            <TableColumn fx:id="tcStudentId" prefWidth="115.20001220703125" text="STUDENT ID" />
+            <TableColumn fx:id="tcStudentName" prefWidth="152.0" text="STUDENT NAME" />
+            <TableColumn fx:id="tcIssueDate" prefWidth="132.79998779296875" text="ISSUE DATE" />
+            <TableColumn fx:id="tcDueDate" prefWidth="143.20001220703125" text="DUE DATE" />
+        </columns>
+      </TableView>
+      <TableView fx:id="tReturnBook" layoutX="10.0" layoutY="374.0" prefHeight="200.0" prefWidth="690.0">
+         <columns>
+            <TableColumn fx:id="tcBookId1" prefWidth="83.99999713897705" text="BOOK ID" />
+            <TableColumn fx:id="tcBookName1" prefWidth="139.19998168945312" text="BOOK NAME" />
+            <TableColumn fx:id="tcStudentId1" prefWidth="101.59999084472656" text="STUDENT ID" />
+            <TableColumn fx:id="tcStudentName1" prefWidth="120.800048828125" text="STUDENT NAME" />
+            <TableColumn fx:id="tcIssueDate1" prefWidth="110.4000244140625" text="ISSUE DATE" />
+            <TableColumn fx:id="tcDueDate1" minWidth="0.0" prefWidth="129.5999755859375" text="DUE DATE" />
+            <TableColumn fx:id="tcReturnDate1" prefWidth="119.20001220703125" text="RETURN DATE" />
+         </columns>
+      </TableView>
+      <Label layoutX="106.0" layoutY="36.0" prefHeight="42.0" prefWidth="597.0" text="         ISSUE BOOK DETAILS" textFill="#7e1818">
+         <font>
+            <Font name="Georgia Bold" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="118.0" layoutY="324.0" prefHeight="50.0" prefWidth="582.0" text="      RETURN BOOK DETAILS" textFill="#7e1818">
+         <font>
+            <Font name="Georgia Bold" size="36.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="ivBack" fitHeight="29.0" fitWidth="60.0" layoutX="8.0" layoutY="7.0" onMouseClicked="#ivBackAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@backk1.png" />
+         </image>
+      </ImageView>
+      <PieChart fx:id="pieChart" layoutX="715.0" layoutY="99.0" prefHeight="468.0" prefWidth="316.0" />
+      <Label layoutX="793.0" layoutY="155.0" text="Library Management Progress" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-18">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.fx.ide.jdt.core.JAVAFX_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/JavaFX">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Sweety/eclipse-workspace/Library_Management_System_main/External Libraries/commons-collections4-4.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sweety/eclipse-workspace/Library_Management_System_main/External Libraries/commons-compress-1.22.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sweety/eclipse-workspace/Library_Management_System_main/External Libraries/commons-io-2.11.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sweety/eclipse-workspace/Library_Management_System_main/External Libraries/log4j-api-2.18.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sweety/eclipse-workspace/Library_Management_System_main/External Libraries/mysql-connector-j-8.0.31.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sweety/eclipse-workspace/Library_Management_System_main/External Libraries/poi-5.2.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sweety/eclipse-workspace/Library_Management_System_main/External Libraries/poi-ooxml-5.2.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sweety/eclipse-workspace/Library_Management_System_main/External Libraries/poi-ooxml-full-5.2.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sweety/eclipse-workspace/Library_Management_System_main/External Libraries/xmlbeans-5.1.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
