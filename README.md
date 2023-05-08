@@ -6,9 +6,12 @@ Scalable library management system is designed to provide a flexible and efficie
 TOOLS USED:  
 
 Eclipse - Integrated Development Environment for Java Development to build the application. 
+
 Scene Builder - Layout tool that allows for rapid designing of JavaFX project User Interfaces without coding by drag and Drop control to build the application. 
 MySQL Workbench - Used for designing, developing, and managing MySQL databases. Create, modify, and manage tables. Execute SQL queries and generate visual representations of data  
+
 Git - Version control systems for managing Source Code. 
+
 Google drive will be used for documentation. 
 
  
