@@ -13,7 +13,7 @@ TOOLS USED:
 
 TECHNOLOGIES USED: 
 
-- Java SE – Used for building standalone applications Java SE provides a standard set of APIs for working with files, networking, concurrency, and other core features, as well as support for graphical user interfaces (GUIs) with JavaFX.  <br>   
+- Java SE – Used for building standalone applications Java SE provides a standard set of APIs for working with files, networking, concurrency, and other core features, as well as support for graphical user interfaces (GUIs) with JavaFX.  <br> 
                             Java Programming Language <br>
                             JavaFX - Framework for developing Java GUI programs
 
