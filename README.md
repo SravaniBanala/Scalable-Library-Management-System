@@ -8,23 +8,27 @@ TOOLS USED:
 Eclipse - Integrated Development Environment for Java Development to build the application. 
 
 Scene Builder - Layout tool that allows for rapid designing of JavaFX project User Interfaces without coding by drag and Drop control to build the application. 
+
 MySQL Workbench - Used for designing, developing, and managing MySQL databases. Create, modify, and manage tables. Execute SQL queries and generate visual representations of data  
 
 Git - Version control systems for managing Source Code. 
 
 Google drive will be used for documentation. 
 
- 
+- Guidelines for contributing to the project
+- Code of Conduct
+- How to set up a local development environment
 
 TECHNOLOGIES USED: 
 
 Java SE – Used for building standalone applications Java SE provides a standard set of APIs for working with files, networking, concurrency, and other core features, as well as support for graphical user interfaces (GUIs) with JavaFX.  
+
                                     Java Programming Language 
+                                    
                                     JavaFX - Framework for developing Java GUI programs                    
 
 MySQL - Open-source relational database management system (RDBMS) that allows developers to store, organize, and manage large amounts of data. 
 
- 
 
 DESCRIPTION: 
 
