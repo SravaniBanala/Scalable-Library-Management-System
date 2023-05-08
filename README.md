@@ -13,11 +13,9 @@ TOOLS USED:
 
 TECHNOLOGIES USED: 
 
-- Java SE – Used for building standalone applications Java SE provides a standard set of APIs for working with files, networking, concurrency, and other core features, as well as support for graphical user interfaces (GUIs) with JavaFX. 
-
-                                    Java Programming Language 
-                                    
-                                    JavaFX - Framework for developing Java GUI programs  
+- Java SE – Used for building standalone applications Java SE provides a standard set of APIs for working with files, networking, concurrency, and other core features, as well as support for graphical user interfaces (GUIs) with JavaFX.  <br>   
+                            Java Programming Language <br>
+                            JavaFX - Framework for developing Java GUI programs
 
 - MySQL - Open-source relational database management system (RDBMS) that allows developers to store, organize, and manage large amounts of data. 
 
